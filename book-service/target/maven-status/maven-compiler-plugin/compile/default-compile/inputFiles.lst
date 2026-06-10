@@ -1,0 +1,10 @@
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/repository/BookRepository.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/exception/GlobalExceptionHandler.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/BookServiceApplication.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/dto/BookDto.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/exception/NoCopiesAvailableException.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/controller/BookController.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/service/BookService.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/exception/BookNotFoundException.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/model/Book.java
+/home/hugo/Projects/library-microservices/book-service/src/main/java/com/library/exception/DuplicateIsbnException.java
