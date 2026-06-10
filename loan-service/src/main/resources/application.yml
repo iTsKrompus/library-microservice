@@ -18,7 +18,9 @@ spring:
     console:
       enabled: true
       path: /h2-console
-
+      # Permite conexiones desde fuera del contenedor de Docker
+      settings:
+        web-allow-others: true
 services:
   book-service:
     url: http://localhost:8081

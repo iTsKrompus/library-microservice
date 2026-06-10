@@ -29,8 +29,9 @@ services:
     ports:
       - "8083:8083"
     environment:
-      - SERVICES_BOOK-SERVICE_URL=http://book-service:8081
-      - SERVICES_USER-SERVICE_URL=http://user-service:8082
+      # 🛠️ CORRECCIÓN: Nomenclatura exacta compatible con @Value("${services.book-service.url}")
+      - SERVICES_BOOK_SERVICE_URL=http://book-service:8081
+      - SERVICES_USER_SERVICE_URL=http://user-service:8082
     depends_on:
       - book-service
       - user-service
