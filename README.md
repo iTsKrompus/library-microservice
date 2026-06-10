@@ -22,8 +22,8 @@ Aplicación de gestión de biblioteca desarrollada con arquitectura de microserv
 
 ## 🛠️ Stack Tecnológico
 
-- **Java 17**
-- **Spring Boot 3.2.0**
+- **Java 21**
+- **Spring Boot 3.3.5**
 - **Spring Cloud Gateway** (API Gateway)
 - **Spring Data JPA** + H2 (base de datos en memoria)
 - **Lombok** (reducción de boilerplate)
