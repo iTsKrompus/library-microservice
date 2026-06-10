@@ -49,7 +49,7 @@ docker-compose down
 
 ### Opción 2: Ejecución local
 
-Requiere Java 17 y Maven instalados.
+Requiere Java 21 y Maven instalados.
 
 ```bash
 # Terminal 1 - Book Service

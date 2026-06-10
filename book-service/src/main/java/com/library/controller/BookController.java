@@ -58,13 +58,13 @@ public class BookController {
         return ResponseEntity.noContent().build();
     }
 
-    // Internal endpoints for loan-service
-    @PatchMapping("/{id}/decrease-copies")
+    // Internal endpoints for loan-service (Modificados a @PostMapping)
+    @PostMapping("/{id}/decrease-copies")
     public ResponseEntity<BookDto> decreaseCopies(@PathVariable Long id) {
         return ResponseEntity.ok(bookService.decreaseAvailableCopies(id));
     }
 
-    @PatchMapping("/{id}/increase-copies")
+    @PostMapping("/{id}/increase-copies")
     public ResponseEntity<BookDto> increaseCopies(@PathVariable Long id) {
         return ResponseEntity.ok(bookService.increaseAvailableCopies(id));
     }

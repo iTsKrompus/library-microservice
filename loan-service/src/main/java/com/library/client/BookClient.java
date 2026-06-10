@@ -31,7 +31,8 @@ public class BookClient {
 
     public BookDto decreaseAvailableCopies(Long bookId) {
         try {
-            return restTemplate.patchForObject(
+            // CORRECCIÓN: Cambiado patchForObject por postForObject para evitar la limitación de la JDK
+            return restTemplate.postForObject(
                     bookServiceUrl + "/api/books/" + bookId + "/decrease-copies",
                     null, BookDto.class);
         } catch (Exception e) {
@@ -42,7 +43,8 @@ public class BookClient {
 
     public BookDto increaseAvailableCopies(Long bookId) {
         try {
-            return restTemplate.patchForObject(
+            // CORRECCIÓN: Cambiado patchForObject por postForObject para evitar la limitación de la JDK
+            return restTemplate.postForObject(
                     bookServiceUrl + "/api/books/" + bookId + "/increase-copies",
                     null, BookDto.class);
         } catch (Exception e) {
