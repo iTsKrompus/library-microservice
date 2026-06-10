@@ -47,7 +47,7 @@ docker-compose logs -f
 docker-compose down
 ```
 
-### Opción 2: Ejecución local (No Operativa actualmente)
+### Opción 2: Ejecución local (no operativa)
 
 Requiere Java 21 y Maven instalados.
 
